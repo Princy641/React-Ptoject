@@ -1,0 +1,87 @@
+/* Center the app */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f0f2f5;
+    padding: 20px;
+}
+
+/* App box */
+.todo-app {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Title */
+.todo-app h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 28px;
+}
+
+/* Input Row */
+.row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Input box */
+#input-box {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+/* Add Task button */
+.row button {
+    padding: 10px 15px;
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.row button:hover {
+    background: #45a049;
+}
+
+/* Font Awesome icon */
+.row i {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Task list */
+#list-container {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+#list-container li {
+    padding: 10px 15px;
+    background: #f9f9f9;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+/* You can enhance this further with check/uncheck, delete, etc. */

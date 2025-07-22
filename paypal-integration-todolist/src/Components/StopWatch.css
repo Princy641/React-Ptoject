@@ -1,0 +1,77 @@
+.StopWatchContainer{
+    background-color: bisque;
+    margin-top: 10px;
+    padding: 44px;
+    position:relative;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    justify-content: center;
+    width: 60%;
+    margin-left: 300px;
+    margin-right: 50px;
+    height: 50vh;
+
+
+    .button{
+
+        padding-right: 10px;
+        padding-left: 10px;
+        position: relative;
+        /* width: 100px; */
+        height: 36px;
+        font-size: 30px;
+
+
+        .h1{
+            text-align: center;
+            position: absolute;
+            font-size: 54px;
+        }
+
+
+        .Start{
+            padding: 12px 24px;        /* Bigger padding for larger size */
+            font-size: 18px;           /* Larger font */
+            margin: 10px;              /* Space between buttons */
+            border-radius: 10px;       /* Rounded corners */
+            background-color: #27662f; /* Bootstrap-style blue */
+            color: white;              /* White text */
+            border: none;              /* No default border */
+            cursor: pointer;           /* Pointer on hover */
+            transition: background-color 0.3s;
+          
+
+        }
+        .Stop{
+            padding: 12px 24px;        /* Bigger padding for larger size */
+            font-size: 18px;           /* Larger font */
+            margin: 10px;              /* Space between buttons */
+            border-radius: 10px;       /* Rounded corners */
+            background-color: #ec8251; /* Bootstrap-style blue */
+            color: white;              /* White text */
+            border: none;              /* No default border */
+            cursor: pointer;           /* Pointer on hover */
+            transition: background-color 0.3s;
+          
+
+
+
+        }
+        .Reset{
+            padding: 12px 24px;        /* Bigger padding for larger size */
+            font-size: 18px;           /* Larger font */
+            margin: 10px;              /* Space between buttons */
+            border-radius: 10px;       /* Rounded corners */
+            background-color: #1c69b7; /* Bootstrap-style blue */
+            color: white;              /* White text */
+            border: none;              /* No default border */
+            cursor: pointer;           /* Pointer on hover */
+            transition: background-color 0.3s;
+          
+        }
+        
+    }
+
+
+}
