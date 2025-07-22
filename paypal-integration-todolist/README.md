@@ -68,3 +68,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### If face error
+
+After cloning the repository, navigate into the project folder with:
+cd paypal-integration-todolist
+Then run the following commands to install all required dependencies:
+
+bash
+Copy
+Edit
+npm install
+npm install react-icons
+npm install react-redux
+npm install @reduxjs/toolkit
+npm install react-router-dom
+npm install react-bootstrap bootstrap
+Finally, start the development server using:
+npm start
+
+
+
